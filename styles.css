@@ -4,11 +4,11 @@
     
 }
 body{
-    background-color: #181823;
+    background-color: #D6E5FA;
 }
 .title{
     text-align: center;
-    
+    color: #000000;
     font-size: 45px;
     background-color: #93BFCF;
     margin: 25px 600px 25px 600px;
@@ -28,7 +28,7 @@ body{
 .main > div{
     margin: 30px 10px 10px 10px;
     padding: 50px;
-    border: 2px black solid;
+    border: 2px;
     border-radius: 20px;
     background-color:#3C84AB;
     height: 30vw;

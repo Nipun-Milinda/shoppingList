@@ -5,8 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping List</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="main"></div>
+    <div class="header">
+        <h1 class="title">shopping list</h1>
+    </div>
+    <div class="main">
+        <div class="column list-column">
+            <div class="new-list-btn">+ new list</div>
+            <ul class="list-list">
+                <li><input type="checkbox" class="list-check">item 1</li>
+                <li><input type="checkbox" class="list-check">item 2</li>
+                <li><input type="checkbox" class="list-check">item 3</li>
+            </ul>
+        </div>
+        <div class="column to-buy-column">
+            <h3 class="sub-heading">to buy</h3>
+            <div class="addItemBtn">add item</div>
+            <ul class="to-buy-items item-list">
+                <li><input type="checkbox" class="item-check">item 1</li>
+                <li><input type="checkbox" class="item-check">item 2</li>
+                <li><input type="checkbox" class="item-check">item 3</li>
+            </ul>
+        </div>
+        <div class="column removed-column">
+            <h3 class="sub-heading">removed</h3>
+            <ul class="removed item-list">
+                <li><input type="checkbox" class="item-check">item 1</li>
+                <li><input type="checkbox" class="item-check">item 2</li>
+                <li><input type="checkbox" class="item-check">item 3</li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>

@@ -2,3 +2,24 @@
     margin: 0;
     padding: 0;
 }
+
+.header{
+    text-align: center;
+    margin-top: 1em;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color:black;
+    border-bottom: black;
+}
+
+.new-list-btn{
+    margin-right: 1em;
+    background: gray;
+    font-size: 30px;
+}
+
+.new-list-btn:hover{
+    color:#fff;
+    background: black;
+}
+

@@ -4,13 +4,13 @@
     
 }
 body{
-    background-color: #D6E5FA;
+    /* background-color: #D6E5FA; */
 }
 .title{
     text-align: center;
     color: #000000;
     font-size: 45px;
-    background-color: #6d85dd;
+    /* background-color: #6d85dd; */
     margin: 25px 500px 25px 400px;
     border-radius: 15px;
 }
@@ -41,9 +41,10 @@ li{
   
     margin: 20px;
     padding: 15px;
-    background-color: #6d85dd;
+    /* background-color: #6d85dd; */
     border-radius: 15px;
     font-size: 30px;
+    box-shadow: 3px 4px 8px rgba(0, 0, 0, 2);
     
     
    
@@ -54,13 +55,14 @@ li{
     border: blue 2px solid;
 } */
 #New_list{
-    border-right: black 5px solid;
+    border-right: black 3px solid;
     border-radius: 5px;
     padding: 50px;
     
+    
 }
 #To_buy{
-    border-right: black 5px solid;
+    border-right: black 3px solid;
     border-radius: 5px;
     padding: 50px;
 }

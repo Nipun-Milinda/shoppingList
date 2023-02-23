@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Shopping List
+    </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="body">
+    <div class="header">
+        <h1>Shopping List</h1>
+    </div>
+
+    <div  class="row">
+    <div class="list-area">
+        <button class="new-list-btn">+ New list</button><br>
+        <div class="list-list">
+                <input type="checkbox" id="list1" name="list1" value="" checked ><lablel for="list1" class="list-item">List 1</lablel><br>
+                <input type="checkbox" id="list2" name="list2" value=""><lablel for="list2" class="list-item">List 2</lablel><br>
+                <input type="checkbox" id="list3" name="list3" value=""><lablel for="list3" class="list-item">List 3</lablel>
+        </div>
+    </div>
+    
+    <div class="to-buy">
+        <div class="to-buy-h3">
+        <h3>To Buy</h3>
+        </div>
+        
+        <form>
+            <input placeholder="+Add item" class="add-item"><br>
+            <input type="checkbox" id="item1" name="item1" value="" ><lablel for="item1" class="list-item">item 1</lablel><i class="fa fa-trash-o icon" style="font-size:24px"></i></i><br>
+            <input type="checkbox" id="item2" name="item2" value="" ><lablel for="item2" class="list-item">item 2</lablel><i class="fa fa-trash-o icon" style="font-size:24px"></i></i><br>
+            <input type="checkbox" id="item3" name="item3" value="" ><lablel for="item3" class="list-item">item 3</lablel><i class="fa fa-trash-o icon" style="font-size:24px"></i></i>
+        </form>
+    </div>
+   
+    <div class="removed">
+        <div class="removed-h3">
+        <h3>Removed</h3>
+        </div>
+        <form>
+            <input type="checkbox" id="item4" name="item4" value="" checked>
+            <del class="list-item">item 4</del>
+        </form>
+    </div>
+    </div>
+</body>
+</html>
